@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">НМедиа</string>
+    <string name="helloText">НМедиа!</string>
+    <string name="avatar">Пустой Аватар</string>
+    <string name="likes_amount">Количество лайков</string>
+    <string name="sharing_amount">Количество поделившихся</string>
+    <string name="views_amount">Количество просмотров</string>
+    <string name="menu">Открыть меню</string>
+    <string name="author">Нетология: Университет интернет-профессий будущего</string>
+    <string name="published">21 мая в 18:40</string>
+    <string name="content">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов. Но самое важное остаётся с нами: мы верим, что в каждом уже есть сила, которая заставляет хотеть больше, целиться выше, бежать быстрее. Наша миссия — помочь встать на путь роста и начать цепочку перемен – http://netolo.gy/fyb</string>
+    <string name="menu_remove">Удалить</string>
+    <string name="post_text">Введите текст...</string>
+    <string name="add_button_content_description">Добавьте свой пост</string>
+    <string name="error_is_empty">Невозможно добавить пустой текст</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="edit_message_text">Отредактируйте текст</string>
+    <string name="edited_text">Example</string>
+    <string name="chooser_share_post">Поделиться</string>
+    <string name="error_empty_content">Вы пытаетесь поделиться пустым текстом</string>
+    <string name="video_description">Описание к видео. Приложение NMEDIA</string>
+    <string name="videoView">8353 просмотра</string>
+
+</resources>
