@@ -11,7 +11,7 @@ class PostRepositoryFileImpl(private val context: Context) : PostRepository {
     private val gson = Gson()
     private val type = TypeToken.getParameterized(List::class.java, Post::class.java).type
     private val fileName = "posts.json"
-    private var nextId = 1L
+    private var nextId: Long
     private var posts = emptyList<Post>()
     private val data = MutableLiveData(posts)
 
@@ -27,6 +27,9 @@ class PostRepositoryFileImpl(private val context: Context) : PostRepository {
             // если нет, записываем пустой массив
             sync()
         }
+
+        val maxId = posts.maxOfOrNull { it.id }?: 0
+        nextId  = maxId + 1
     }
 
     override fun get(): LiveData<List<Post>> = data
